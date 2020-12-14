@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Classdiagram.Anggota">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAIAAAAAAAAACAAICAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Anggota.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Classdiagram.Admin">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAQEAAAAEAIAAAAAAAAAA=</HashCode>
+      <FileName>Admin.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Laporan" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Classdiagram.Transaksi">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAACAAAAIAAAAAIAIAAAAAAAAIAAgAAACAAA=</HashCode>
+      <FileName>Transaksi.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Anggota" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Classdiagram.Data_Buku">
+    <Position X="6" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAAAEAAAAAAAAAAAAAAAAAAAhAAAAAAQAAAAMA=</HashCode>
+      <FileName>Data_Buku.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Classdiagram.Laporan">
+    <Position X="0.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAgAEAQAAAAAAACAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Laporan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Classdiagram.Denda">
+    <Position X="3.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAIAAgAA=</HashCode>
+      <FileName>Denda.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Transaksi" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
